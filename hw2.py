@@ -369,8 +369,8 @@ if __name__ == '__main__':
     #First SSH to the PEM file to activate the instance
     #ssh -i ~/Abhishek3.pem hadoop@ec2-54-186-36-60.us-west-2.compute.amazonaws.com
     pyspark #on EMR (Hadoop) Instance
-    AWS_ACCESS_KEY_ID = "AKIAJHVZ4DT6IMUHIWLQ"
-    AWS_SECRET_ACCESS_KEY = "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"
+    AWS_ACCESS_KEY_ID = #123455666666666666
+    AWS_SECRET_ACCESS_KEY = #1234556666666666663446464748484
     #Enabling the hadoop path for spark
     sc._jsc.hadoopConfiguration().set("fs.s3n.awsAccessKeyId", AWS_ACCESS_KEY_ID)
     sc._jsc.hadoopConfiguration().set("fs.s3n.awsSecretAccessKey", AWS_SECRET_ACCESS_KEY)
